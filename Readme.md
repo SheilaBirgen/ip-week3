@@ -13,8 +13,6 @@ Sheila Birgen J.
 This is a webpage that details about about Delani studio and the work they have perfomed over time.It has several websites
 
 ## Deploying link
- https://sheilabirgen.github.io/projectweek3/.
-
 ## BDD
 
 On visiting the website the home page displays a form which has a brief introduction on the Akan naming.You'll be required to enter your birth details and your gender in order to know your Akan name and the day you were born.

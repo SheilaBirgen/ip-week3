@@ -130,9 +130,7 @@ form {
 ::placeholder {
   color: rgb(204, 204, 204);
 }
-form input {
-  width: 49%;
-}
+
 form input,
 form textarea {
   background: transparent;
