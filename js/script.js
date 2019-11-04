@@ -1,3 +1,17 @@
+
+var works = ["design-img", "dev-img", "manage-img"];
+var workDesc = ["design", "dev", "manage"];
+var projects = [
+  "first",
+  "second",
+  "third",
+  "fourth",
+  "fifth",
+  "sixth",
+  "seventh",
+  "eighth"
+];
+
 $(document).ready(function() {
   $("#design-img").click(function() {
     $(this).hide(2000);
