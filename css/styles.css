@@ -79,3 +79,9 @@ body {
   margin-left:5%;
   margin-right: 5%
 }
+.contact{
+  background-image: url(/images/backgrounds/c_image.jpg);
+  background-size:100%;
+  height: 300px;
+
+}
