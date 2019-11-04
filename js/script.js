@@ -53,4 +53,10 @@ $(document).ready(function() {
       }
     );
   });
-}
+});
+$("form").submit(function() {
+  var name = $("input#name").val();
+  $("#sender-name").text(name);
+  $("#exampleModal").modal("toggle");
+});
+});
