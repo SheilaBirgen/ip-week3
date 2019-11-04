@@ -36,3 +36,21 @@ $(document).ready(function() {
     $(this).hide("1000");
     $("#manage").show();
   });
+  $("#manage").click(function() {
+    $(this).hide(1000);
+    $("#manage-img").show();
+  });
+  projects.forEach(function(project) {
+    $("#" + project).hover(
+      function() {
+        $(this).removeClass();
+        $(this).addClass("overlay1", project + "-box");
+        $("." + project + "-box").show();
+      },
+      function() {
+        $(this).removeClass();
+        $("." + project + "-box").hide();
+      }
+    );
+  });
+}
