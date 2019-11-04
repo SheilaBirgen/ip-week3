@@ -75,16 +75,18 @@ body {
     width: 100%;
     padding: 10px;
 }
+.images{
+  opacity: 15;
+}
 .portfolio {
   margin-left:5%;
   margin-right: 5%
 }
+
 .contact{
   background-image: url(/images/backgrounds/c_image.jpg);
   background-size:100%;
   height: 500px;
-  
-
 }
 #product-p,
 #dev-p,

@@ -24,6 +24,11 @@ $(document).ready(function() {
     $("#product-p").hide();
     $("#product-img").show();
   });
+
+  $("images").hover(function() {
+    $(this).css("opacity", "10");
+  });
+
   $(".btnsend").click(function(event) {
     event.preventDefault();
     var user = document.getElementById("name").value;
