@@ -25,14 +25,19 @@
             <h4>
               AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT<br /><br /><br />
             </h4>
-            <img src="./images/mouse_click.png" />
+            <a href="#anim"
+              ><img
+                src="./images/mouse_click.png"
+                class="anim"
+                alt="mouse_click"
+            /></a>
           </div>
         </div>
       </div>
       <div class="section2">
         <div class="row">
-          <div class="second-text">
-            <p>ABOUT US</p>
+          <div class="second-text" id="anim">
+            <h2>ABOUT US</h2>
             <BR />
             <p>
               When you work with us, you are part of a team of committed
@@ -71,30 +76,28 @@
           <div class="col-md-4"></div>
         <div class="fourth-text">
               <h1>WHAT WE DO</h1>
-            </div><br>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-4 col-xs-4">
-                        <div id="design"><img src="images/services_icons/design_icon.png">
-                            <h6>DESIGN</h6>
+            <br><br>
+            <div class="container-fluid" >
+                
+                    <div class="col-md-4 col-xs-4" id="design">
+                        <div id="design-img"><img src="images/services_icons/design_icon.png">
                         </div>
-                        <div id="content">
                             <h6><b>DESIGN</b></h6>
+                            <div id="design-p">
                             <p>
                                 Our design practice offers a full range of services including brand strategy, interaction and
                                 visual design and user experience testing.
                                 Throughout your project, our designers create and implement visual design and workflows, solicit
                                 user feedback and work with you to make sure what gets built is what is needed.
                             </p>
-                        </div>
+                          </div>
                     </div>
                     <div class="col-md-4 col-xs-4">
-                        <div id="dev"><img src="images/services_icons/dev_icon.png">
-                            <h6>DEVELOPMENT</h6>
+                        <div id="dev-img"><img src="images/services_icons/dev_icon.png">
                         </div>
                         <div id="dev-content">
                             <h6><b>DEVELOPMENT</b></h6>
-                            <p>
+                            <p id="dev-p">
                                 All engineers are fluent in the latest enterprise, mobile and web development technologies.
                                 They collaborate with your team to write, and improve code on a daily basis, using proven
                                 practices such as test-driven development and pair programming.
@@ -102,22 +105,19 @@
                         </div>
                     </div>
                     <div class="col-md-4 col-xs-4">
-                        <div id="product"><img src="images/services_icons/product_icon.png">
-                            <h6>PRODUCT MANAGEMENT</h6>
+                        <div id="product-img"><img src="images/services_icons/product_icon.png">
                         </div>
-                        <div id="prod-content">
+                        <div id="product">
                             <h6><b>PRODUCT MANAGEMENT</b></h6>
-                            <p>
+                            <p id="product-p">
                                 Planning and development is iterative. Because we are constantly coding and testing, the
                                 products we build are always ready to go live.
                                 This iterative process allows for changes as business requirements evolve.
                             </p>
                         </div>
-                    </div>
-                </div><br><br><br>
-
-                <div class="portfolio">
-                        <h1 class="text-center">Portfolio</h1>
+                </div><br><br><br><br><br><br>
+                <div class="portfolio container-fluid">
+                        <h1 class="text-center">PORTFOLIO</h1>
                         <div class="container">
                           <div class="row">
                             <div class="col-md-3">
@@ -168,10 +168,10 @@
                           </div>
                         </div>
                       </div>
-<div class="contact">
-<h5><strong>CONTACT US</strong></h5>
+      <div class="contact">
+      <h2><strong>CONTACT US</strong></h2>
 
-<form onsubmit="event.preventDefault()">
+    <form onsubmit="event.preventDefault()">
         <div class="form-row">
           <div class="form-group col-md-6">
             <input
@@ -200,6 +200,7 @@
             placeholder="Your message here..."
             required
             id="message"
+            size="200px"
           ></textarea>
         </div>
         <button
@@ -211,46 +212,43 @@
         </button>
       </form>
     </div>
-</div><br><br>
-<div class="row icon">
-<div class="col-md-1">
+          </div><br><br>
+    <footer>
+          <div class="row icon">
+              <div class="col-md-1">
 <img src="images/social_icons/twitter.png" class="img-responsive" alt="twitter">
-</div>
-<div class="col-md-1">
-<img src="/images/social_icons/dribble.png" class="img-responsive" alt="dribble">
-</div>
-<div class="col-md-1">
-<img src="/images/social_icons/facebook.png" class="img-responsive" alt="facebook">
-</div>
-<div class="col-md-1">
-<img src="images/social_icons/g_plus.png" class="img-responsive" alt="google">
-</div>
-<div class="col-md-1">
-<img src="images/social_icons/skype.png" class="img-responsive" alt="skype">
-</div>
-<div class="col-md-1">
-<img src="images/social_icons/stumble_upon.png" class="img-responsive" alt="tumble">
-</div>
-<div class="col-md-1">
-<img src="images/social_icons/behance.png" class="img-responsive" alt="behance">
-</div>
-<div class="col-md-1">
-<img src="images/social_icons/pinterest.png" class="img-responsive" alt="pinterest">
-</div>
-<div class="col-md-1">
-<img src="images/social_icons/flickr.png" class="img-responsive" alt="flickr">
-</div>
-</div><br><br>
-<div class="end">
-<p>DELANI STUDIO</p>
-<P>2019</P>
-</div>
-</div>
-</body>
+          </div>
+          <div class="col-md-1">
+            <img src="/images/social_icons/dribble.png" class="img-responsive" alt="dribble">
+          </div>
+          <div class="col-md-1">
+              <img src="/images/social_icons/facebook.png" class="img-responsive" alt="facebook">
+          </div>
+          <div class="col-md-1">
+           <img src="images/social_icons/g_plus.png" class="img-responsive" alt="google">
+          </div>
+          <div class="col-md-1">
+            <img src="images/social_icons/skype.png" class="img-responsive" alt="skype">
+          </div>
+          <div class="col-md-1">
+            <img src="images/social_icons/stumble_upon.png" class="img-responsive" alt="tumble">
+          </div>
+          <div class="col-md-1">
+            <img src="images/social_icons/behance.png" class="img-responsive" alt="behance">
+          </div>
+          <div class="col-md-1">
+            <img src="images/social_icons/pinterest.png" class="img-responsive" alt="pinterest">
+          </div>
+          <div class="col-md-1">
+            <img src="images/social_icons/flickr.png" class="img-responsive" alt="flickr">
+        </div>
+          </div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+      <p>DELANI STUDIO</p>
+      <p>2019</p>
+    </footer>
+    <script src="./js/jquery-3.3.1.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>
