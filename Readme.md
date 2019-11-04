@@ -10,10 +10,10 @@ Sheila Birgen J.
 
 ## Description
 
-This is a webpage that details about me as a software developer,My educational background and my hobbies.
+This is a webpage that details about about Delani studio and the work they have perfomed over time.It has several websites
 
 ## Deploying link
- https://sheilabirgen.github.io/project-2/.
+ https://sheilabirgen.github.io/projectweek3/.
 
 ## BDD
 
