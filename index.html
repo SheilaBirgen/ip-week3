@@ -116,80 +116,101 @@
                     </div>
                 </div><br><br><br>
 
-<div class="portfolio">
-<h5><strong>PORTFOLIO</strong></h5>
-<br>
-<div class="container">
-<div class="row">
-    <div class="col-md-3" id="col-1">
-        <div id="photo1">
-            <img src="images/portfolio/work1.jpg" class="img-responsive" width="100%">
-        </div>
-        <div id="text1" class="fade"><p>Black theme</p></div>
-    </div>
-    <div class="col-md-3" id="col-2">
-        <div id="photo2">
-            <img src="images/portfolio/work2.jpg" class="img-responsive" width="100%">
-        </div>
-        <div id="text2" class="fade"><p>Ontario theme</p></div>
-    </div>
-    <div class="col-md-3" id="col-3">
-        <div id="photo3">
-            <img src="images/portfolio/work3.jpg" class="img-responsive" width="100%">
-        </div>
-        <div id="text3" class="fade"><p>orange theme</p></div>
-    </div>
-    <div class="col-md-3" id="col-4">
-        <div id="photo4">
-            <img src="images/portfolio/work1.jpg" class="img-responsive" width="100%">
-        </div>
-        <div id="text4" class="fade"><p>Brave theme</p></div>
-    </div>
-</div><br>
-<div class="row">
-    <div class="col-md-3" id="col-5">
-        <div id="photo5">
-            <img src="images/portfolio/work5.jpg" class="img-responsive" width="100%">
-        </div>
-        <div id="text5" class="fade"><p>Have a good day theme</p></div>
-    </div>
-    <div class="col-md-3" id="col-6">
-        <div id="photo6">
-            <img src="images/portfolio/work6.jpg" class="img-responsive" width="100%">
-        </div>
-        <div id="text6" class="fade"><p>Equaliser theme</p></div>
-    </div>
-    <div class="col-md-3" id="col-7">
-        <div id="photo7">
-            <img src="images/portfolio/work7.jpg" class="img-responsive" width="100%" class="img-thumbnail">
-        </div>
-        <div id="text7" class="fade"><p>Logo mock theme</p></div>
-    </div>
-    <div class="col-md-3" id="col-8">
-        <div id="photo8">
-            <img src="images/portfolio/work8.jpg" class="img-responsive" width="100%">
-        </div>
-        <div id="text8" class="fade"><p>Giraffe resturant theme </p></div>
-    </div>
-</div>
-</div>
-</div><br><br>
+                <div class="portfolio">
+                        <h1 class="text-center">Portfolio</h1>
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-md-3">
+                              <div id="first">
+                                <img src="images/portfolio/work1.jpg" alt="" />
+                              </div>
+                            </div>
+                            <div class="col-md-3">
+                              <div id="second">
+                                <img src="images/portfolio/work2.jpg" alt="" />
+                              </div>
+                            </div>
+                            <div class="col-md-3">
+                              <div id="third">
+                                <img src="images/portfolio/work3.jpg" id="third" alt="" />
+                              
+                              </div>
+                            </div>
+                            <div class="col-md-3">
+                              <div id="fourth">
+                                <img src="images/portfolio/work4.jpg" alt="" />
+                              
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-md-3">
+                              <div id="fifth">
+                                <img src="images/portfolio/work5.jpg" alt="" />
+                               
+                              </div>
+                            </div>
+                            <div class="col-md-3">
+                              <div id="sixth">
+                                <img src="images/portfolio/work6.jpg" alt="" />
+                              </div>
+                            </div>
+                            <div class="col-md-3">
+                              <div id="seventh">
+                                <img src="images/portfolio/work7.jpg" alt="" />
+                              </div>
+                            </div>
+                            <div class="col-md-3">
+                              <div id="eighth">
+                                <img src="images/portfolio/work8.jpg" alt="" />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
 <div class="contact">
 <h5><strong>CONTACT US</strong></h5>
-<form>
-<div class="row put">
-    <label for="">Name</label>
-    <div class="col-md-6 col-xs-6">
-        <input type="text" id="name" placeholder="Name..eg Maggy"required size="50px"required>
+
+<form onsubmit="event.preventDefault()">
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Name..."
+              required
+              id="name"
+            />
+          </div>
+          <div class="form-group col-md-6">
+            <input
+              type="email"
+              class="form-control"
+              placeholder="Email..."
+              required
+              id="email"
+            />
+          </div>
+        </div>
+        <div class="form-group">
+          <textarea
+            type="text"
+            class="form-control"
+            id="inputAddress"
+            placeholder="Your message here..."
+            required
+            id="message"
+          ></textarea>
+        </div>
+        <button
+          type="submit"
+          class="btn btn-primary"
+          data-target="#exampleModal"
+        >
+          SEND
+        </button>
+      </form>
     </div>
-    <label for="">Email</label>
-    <div class="col-md-6">
-        <input type="email" name="email" id="email" placeholder="email..eg.maggie@gmail.com.."required size="50px"required>
-    </div>
-</div><br>
-<textarea name="message" id="message" cols="80" rows="4" placeholder="Your message here.."required></textarea><br>
-<input type="submit" name="submit" value="submit" class="submit">
-</form>
 </div><br><br>
 <div class="row icon">
 <div class="col-md-1">

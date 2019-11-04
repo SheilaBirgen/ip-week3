@@ -3,7 +3,6 @@ body {
   padding: 0;
   height: auto;
   background: black;
-
 }
 .container {
   margin: inherit;
@@ -42,8 +41,8 @@ body {
   background: transparent;
   font-size-adjust: auto;
 }
-.sevice{
-    text-align: center;
+.sevice {
+  text-align: center;
 }
 
 .third-text p {
@@ -62,7 +61,7 @@ body {
 }
 .fourth-text {
   text-align: center;
-  color: white;
+  color: black;
   font-weight: 200;
 }
 .section4 {
@@ -72,7 +71,11 @@ body {
 .row {
   text-align: center;
 }
-.contact{
-
-
+.portfolio img{
+    width: 100%;
+    padding: 10px;
+}
+.portfolio {
+  margin-left:5%;
+  margin-right: 5%
 }
