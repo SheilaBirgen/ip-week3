@@ -1,3 +1,9 @@
+@import url(bootstrap.css);
+@import url(bootstrap.min.css);
+@import url(bootstrap-theme.css);
+@import url(bootstrap.css.map);
+@import url(bootstrap-theme.css.map);
+@import url(bootstrap.css.map);
 body {
   margin: 0;
   padding: 0;
@@ -111,7 +117,7 @@ body {
 #contact {
   background-image: url("../images/backgrounds/c_image.jpg");
   background-size: 100%;
-  width: 1000px;
+  width: 800px;
   color: white;
 }
 h3 {
@@ -162,3 +168,17 @@ form input[type="submit"] {
 #design-p {
   display: none;
 }
+@keyframes mymouse {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }}
