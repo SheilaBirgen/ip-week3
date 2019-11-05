@@ -16,7 +16,8 @@ This is a webpage that details about about Delani studio and the work they have 
 https://sheilabirgen.github.io/ip-week3/
 ## BDD
 
-On visiting the website the home page displays a form which has a brief introduction on the Akan naming.You'll be required to enter your birth details and your gender in order to know your Akan name and the day you were born.
+On visiting the website the home page displays an image of Delani Studio,then about Delano studio which describes briefly who they are and the services we offer at Delani.You can have a look at what we have created at some of them.At the end there is a form you can give an opinion or a suggestion about the website.
+
 
 ## Technologies used
 
@@ -24,6 +25,7 @@ On visiting the website the home page displays a form which has a brief introduc
     CSS
     JAVASCRIPT
     BOOTSTRAP
+    JQUERY
 
 ## Known Bugs
 
